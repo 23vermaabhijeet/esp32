@@ -7,9 +7,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-RewriteEngine On
-RewriteBase /esp32/
-RewriteRule ^index\.html$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /esp32/index.html [L]
+<p>
+RewriteEngine On  <br />
+RewriteBase /esp32/ <br />
+RewriteRule ^index\.html$ - [L] <br />
+RewriteCond %{REQUEST_FILENAME} !-f <br />
+RewriteCond %{REQUEST_FILENAME} !-d <br />
+RewriteRule . /esp32/index.html [L] <br />
+</p>
